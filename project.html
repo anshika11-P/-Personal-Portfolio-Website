@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            margin: 0;
+            font-family: popin;
+            background-color: lightskyblue;
+        }
+        header {
+            background-color: rgb(175, 204, 211);
+            padding: 2pxpx 20px;
+         text-size-adjust: 30px;
+         
+
+        }
+       nav {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+       }
+     div li {
+        list-style: none;
+        margin: 0px 23px;
+     }
+
+       left h1 {
+         margin-top: -10px;
+        font-size: 15px;
+        display: flex;
+        width: 150px;
+       }
+       .right {
+        width: 80%;
+       }
+       .rigth ul {
+        list-style: none;
+        display: flex;
+        margin: 0%;
+        padding: 0%;
+        flex-direction: row;
+        align-items: center;
+        gap: 25px;
+       }
+       .right ul li{
+display: inline-block;
+       }
+       .right ul li a {
+        text-decoration: none;
+        color: black;
+        white-space:nowrap; 
+       }
+       .right ul li a:hover {
+        background-color: rgb(146, 37, 110);
+        font-size: 1.2rem;
+       }
+       .rigth a {
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+       }
+       .rigth a:hover {
+        color: blue;
+       }
+       .home-section{
+        min-height: 75vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+       }
+       .home-text  {
+        max-width: 800px;
+        margin-top: -30px;
+        position: relative;
+        top: -50px;
+       }
+       .home-text h1{
+        position: relative;
+        top: 4%;
+       }
+       .home-text h2{
+        font-size: 28px;
+        line-height: 1.7;
+        margin-bottom: 15px;
+       }
+       .back-button  {
+margin-top: 35px;
+display: inline-block;
+padding: 0px 8px;
+background-color: rgb(178, 177, 223) ;
+text-emphasis-color:black ;
+border-radius: 25px;
+text-decoration: none;
+font-weight: bold;
+cursor: pointer;
+size: 60px;
+       }
+       back-button a {
+        text-decoration: none;
+        background-color: aquamarine;
+        color :beige;
+        padding : 12px 25px;
+        border-radius: 6px;
+        font-size : 17px;
+       }
+       back-button a:hovver {
+        background-color: aquamarine;
+        
+       }
+       .back-button:hovver{
+        background-color: red;
+        transform: translate(-3px);
+       }
+@media (max-width: 768px ){
+        nav {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        header{
+            padding: 10px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <header>
+        
+    <nav>
+        <div class="left">
+             <h1>Anshika-portfolio</h1>
+        </div>
+        
+<div class="right">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About me</a></li>
+        <li><a href="skills.html">Technical skills</a></li>
+        <li><a href="project.html">Project</a></li>
+        <li><a href="edu.html">Education and certification</a></li>
+        <li><a href="contact.html">Contact and social link</a></li>
+        
+    </ul>
+
+    </div>
+        </nav>
+        </header>
+
+        <main>
+        
+            <section class="home-section">
+                <div class="home-text">
+
+            <h1><left>Project.</left></h1>
+           <h2>Project: Lost and Found Management System</h2>
+
+<p>The Lost and Found Management System is a web-based project developed to help users report, manage, and find lost or found items in an organized way. The main purpose of this project is to make the process of finding lost items easier, faster, and more efficient.</p>
+
+<h4>Key Features</h4>
+
+<p>Users can report lost items with relevant details.
+
+Users can report found items.</p>
+
+<p>Lost and found records can be stored and managed systematically.
+
+Users can view available lost/found item information.
+
+The system reduces the difficulty of manually searching for lost items.
+
+Provides a simple and user-friendly interface.</p>
+
+
+<h4>Technologies Used</h4>
+
+<p>HTML, CSS, Python, Flask, SQL/Database</p>
+
+<h4>Skills Gained</h4>
+
+Through this project, I improved my web development, database management, Python programming, problem-solving, debugging, and project development skills. Working on the project also gave me practical experience in understanding how different parts of a web application work together.
+
+<br>
+
+        <div class="back-button">
+            <a href="index.html">back </a>
+        </div>
+        </div>
+        </section>
+        </main>
+
+</body>
+</html>

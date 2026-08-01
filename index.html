@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anshika- software engeeering portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color:rgb(163, 131, 135);
+            color: white
+            font-family 'popins',sans-serif;
+        }
+         nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: auto;
+            background-color: rgb(212, 193, 193);
+
+         }
+         nav ul {
+            display: flex;
+            justify-content: center;
+         }
+         nav ul li{
+            list-style: none;
+            margin: 0 23px;
+            display: flex
+            
+         } 
+            nav ul li a{
+                text-decoration: none;
+                color:black ;
+
+            }
+            nav ul li a:hover{
+                text-decoration: none;
+                color:rgb(179, 19, 131) ;
+                font-size: 1.3rem;
+            }
+         
+         .leftsection{
+            font-size: 1.5rem;
+            margin: 70px;
+         }
+.leftsection .buttons{
+            padding: 23px;
+        background-color: aquamarine;
+        color: azure;
+      border :2px solid white;
+     border-radius: 6px;
+     font-size: 20px ;
+     cursor: pointer;
+}
+
+
+         .firstsection{
+            display: flex;
+            justify-content: space-around;
+         }
+         .firstsection div >{
+            width: 30%;
+         }
+   .rightsection img{
+    width: 350px;
+    max-width: 90%;
+    height: auto;
+    border-radius: 12px;
+    margin: 50px 0;
+   }
+   .purple{
+    color: rgb(23, 58, 78);
+   }
+.bottom-line {
+    margin-top: auto ;
+    width: 40%
+
+}
+footer{
+     background-color: rgb(212, 193, 193);
+     height: 233px;
+}
+
+.footer{
+    display: flex;
+    padding: 23px 122px;
+
+}
+.hr {
+    background-color:black;
+    padding: 0%;
+    
+}
+@media (max-width: 768px ){
+        nav {
+            flex-direction: column;
+            align-items: flex-start;
+            text-align: center;
+            gap: 10px;
+        }
+        nav ul {
+            justify-content: center;
+            padding: 10px 0;
+        }
+        .firstsection{
+            flex-direction: column-reverse;
+            text-align: center;
+            gap: 20px;
+        }
+        .firstsection > div{
+            width: 100%;
+        }
+        .leftsection {
+            font-size: 1rem;
+        }
+        .rightsection img {
+            max-width: 250px;
+        }
+        header{
+            padding: 10px;
+        }
+    }
+   </style>
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <div class="left"><h1>Anshika-port folio</h1></div>
+            <div class="right">
+              <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About me</a></li>
+                <li><a href="skills.html">Technical skills</a></li>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="edu.html">Education and certification</a></li>
+                <li><a href="contact.html">Contact and social link</a></li>
+
+              </ul>
+
+            </div>
+
+        </nav>
+    </header>
+</section>
+        
+
+    <main> 
+        <section class="firstsection">
+            <div class="leftsection">
+               <h2> My name is <span class="purple"> Anshika.</h2></span> 
+                <div>and i am passionate</div>
+                <div>software development</div>
+                <div>I focus on software developmant and web technologies
+                    combinning strong programming </div>
+                    <div> in python with clean,responsive
+                    user interface user interface using HTML and CSS.</div>
+                   <div> passionate about writing structured code
+                     and solvig</div>
+                   <div>real world problems.
+<br>
+<br>
+<br>
+<br>
+                    <div class="buttons">
+                        <a href="Anshika_Software_Development_Resume.pdf" download="Anshika_Software_Development_Resume.pdf">
+                        <button class="btn">Download Resume</button>
+                        </a>
+                        <a href="https://github.com/anshika11-P" target="_blank" rel="noopener noreferrer">
+                        <button class="btn">visit Github</button>
+                          </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="rightsection">
+         
+                <img src="https://thumbs.dreamstime.com/b/software-development-word-cloud-concept-grey-background-88535408.jpg?w=992">
+        
+    </main>
+<footer>
+    <div class="flex">
+Anshika-portfolio
+<br>
+<br>
+<b><center>copyright&#169Anshika</center><b>
+  </div>
+  <br>
+  <hr>
+</footer>    
+</body>
+
+</html>
